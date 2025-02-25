@@ -23,7 +23,7 @@ def create_contact():
 # PUT: Memperbarui kontak
 def update_contact(contact_id):
     data = {
-        "name": "Dimas Adi",
+        "name": "Dimas Adi saputra",
         "phone_number": "081234567891"
     }
     response = requests.put(f"{BASE_URL}{contact_id}/", json=data)
