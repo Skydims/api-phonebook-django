@@ -12,7 +12,7 @@ def get_contacts():
 # POST: Menambahkan kontak baru
 def create_contact():
     data = {
-        "name": "Dimas adi saputra",
+        "name": "Dimas adi Saputra",
         "phone_number": "08123456789"
     }
     response = requests.post(BASE_URL, json=data)
